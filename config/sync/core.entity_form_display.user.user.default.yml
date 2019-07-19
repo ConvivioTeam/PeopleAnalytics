@@ -1,0 +1,81 @@
+uuid: 543cb076-f7d1-4007-8623-e3d64b222c55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_realname
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - name
+    - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_realname:
+    weight: 1
+    settings:
+      labels:
+        title: Title
+        given: Given
+        middle: 'Middle name(s)'
+        family: Family
+        generational: Generational
+        credentials: Credentials
+      size:
+        title: 6
+        given: 20
+        middle: 20
+        family: 20
+        generational: 5
+        credentials: 35
+      title_display:
+        title: description
+        given: description
+        middle: description
+        family: description
+        generational: description
+        credentials: description
+      widget_layout: stacked
+      show_component_required_marker: false
+      credentials_inline: false
+      override_field_settings: false
+    third_party_settings: {  }
+    type: name_default
+    region: content
+  language:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image_image
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  diversity_profiles: true
+  employment_profiles: true

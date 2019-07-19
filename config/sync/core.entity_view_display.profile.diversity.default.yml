@@ -1,0 +1,42 @@
+uuid: d85b911b-a77b-4c76-b8ab-bd0067e1a47e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.diversity.field_date_of_birth
+    - field.field.profile.diversity.field_ethnicity
+    - field.field.profile.diversity.field_gender
+    - profile.type.diversity
+  module:
+    - datetime
+    - options
+id: profile.diversity.default
+targetEntityType: profile
+bundle: diversity
+mode: default
+content:
+  field_date_of_birth:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_ethnicity:
+    weight: 0
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_gender:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

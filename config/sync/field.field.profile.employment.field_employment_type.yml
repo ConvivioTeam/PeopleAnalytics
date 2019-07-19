@@ -1,0 +1,21 @@
+uuid: 5cefcbff-b8e5-4167-8c36-32869b612671
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_employment_type
+    - profile.type.employment
+  module:
+    - options
+id: profile.employment.field_employment_type
+field_name: field_employment_type
+entity_type: profile
+bundle: employment
+label: 'Employment type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

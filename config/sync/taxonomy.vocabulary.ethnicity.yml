@@ -1,0 +1,8 @@
+uuid: e3cd63fb-dd50-4954-a195-5b2fbca96182
+langcode: en
+status: true
+dependencies: {  }
+name: Ethnicity
+vid: ethnicity
+description: 'Ethnicity categories taken from 2011 UK census.'
+weight: 0

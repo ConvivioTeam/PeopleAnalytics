@@ -1,0 +1,27 @@
+uuid: 977dc5e4-48cb-4ceb-8e08-89a5749ce204
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_gender
+    - profile.type.diversity
+  module:
+    - options
+    - profile
+third_party_settings:
+  profile:
+    profile_private: true
+id: profile.diversity.field_gender
+field_name: field_gender
+entity_type: profile
+bundle: diversity
+label: Gender
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: female
+default_value_callback: ''
+settings: {  }
+field_type: list_string

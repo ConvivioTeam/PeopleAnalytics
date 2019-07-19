@@ -1,0 +1,33 @@
+uuid: 3c32eee3-bcc7-4c0c-a472-8733e171c76b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.employment.field_employment_type
+    - field.field.profile.employment.field_start_date
+    - profile.type.employment
+  module:
+    - datetime
+    - options
+id: profile.employment.default
+targetEntityType: profile
+bundle: employment
+mode: default
+content:
+  field_employment_type:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_start_date:
+    weight: 0
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

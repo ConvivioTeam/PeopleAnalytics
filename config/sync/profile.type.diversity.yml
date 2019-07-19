@@ -1,0 +1,13 @@
+uuid: 43be55a5-e6c1-4029-a494-09bcf3bc5383
+langcode: en
+status: true
+dependencies: {  }
+id: diversity
+label: Diversity
+display_label: Diversity
+multiple: false
+registration: false
+roles:
+  authenticated: authenticated
+allow_revisions: false
+new_revision: false

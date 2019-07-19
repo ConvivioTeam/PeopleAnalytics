@@ -1,0 +1,29 @@
+uuid: 67500781-63a3-4cea-b190-c7152d8c6b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_ethnicity
+    - profile.type.diversity
+    - taxonomy.vocabulary.ethnicity
+id: profile.diversity.field_ethnicity
+field_name: field_ethnicity
+entity_type: profile
+bundle: diversity
+label: Ethnicity
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ethnicity: ethnicity
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

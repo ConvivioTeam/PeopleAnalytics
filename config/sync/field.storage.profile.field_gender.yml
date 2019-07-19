@@ -1,0 +1,30 @@
+uuid: 8186e9b4-a693-41ef-b02b-73cdd411b33b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - profile
+id: profile.field_gender
+field_name: field_gender
+entity_type: profile
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: female
+      label: Female
+    -
+      value: male
+      label: Male
+    -
+      value: withheld
+      label: 'Prefer not to say'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

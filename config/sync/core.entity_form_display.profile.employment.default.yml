@@ -1,0 +1,28 @@
+uuid: 656a5456-826a-4ad3-95fd-17fdc74ea69b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.employment.field_employment_type
+    - field.field.profile.employment.field_start_date
+    - profile.type.employment
+  module:
+    - datetime
+id: profile.employment.default
+targetEntityType: profile
+bundle: employment
+mode: default
+content:
+  field_employment_type:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_start_date:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

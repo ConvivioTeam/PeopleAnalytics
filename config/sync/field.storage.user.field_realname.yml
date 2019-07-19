@@ -1,0 +1,19 @@
+uuid: 8560a9a8-cac7-4056-aeb0-3c1b11273b15
+langcode: en
+status: true
+dependencies:
+  module:
+    - name
+    - user
+id: user.field_realname
+field_name: field_realname
+entity_type: user
+type: name
+settings: {  }
+module: name
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

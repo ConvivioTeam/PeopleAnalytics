@@ -1,0 +1,21 @@
+uuid: f19cdd73-eb99-4c68-ba9e-8e7b12b5f89b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_start_date
+    - profile.type.employment
+  module:
+    - datetime
+id: profile.employment.field_start_date
+field_name: field_start_date
+entity_type: profile
+bundle: employment
+label: 'Start date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
