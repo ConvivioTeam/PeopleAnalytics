@@ -1,0 +1,25 @@
+uuid: ff264356-8fcc-433b-ba06-83cb20f5648f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_participants
+    - node.type.event
+id: node.event.field_participants
+field_name: field_participants
+entity_type: node
+bundle: event
+label: 'Attendees or Participants'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: staff
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference
