@@ -12,6 +12,6 @@ name: Event
 type: event
 description: "An event, like a meeting, a conference, a retreat or a training course. You should record who attends or participates at an event.\r\n\r\nThese are usually internal events, but occasionally you may want to record an external event."
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: true

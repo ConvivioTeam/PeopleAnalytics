@@ -24,6 +24,8 @@
         "drupal/bootstrap_barrio": "^4.22",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
+        "drupal/email_registration": "^1.0@RC",
+        "drupal/jsonapi_extras": "^3.8",
         "drupal/name": "^1.0@RC",
         "drupal/profile": "^1.0@RC",
         "drupal/select_or_other": "^1.0@alpha",
